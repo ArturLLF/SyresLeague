@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- LINK FAVICON -->
+    <link rel="shortcut icon" href="img/favicon.ico" type="image/x-icon">
+    <!-- LINK JS -->
+    <script src="script.js" defer></script>
+    <!-- LINK CSS -->
+    <link rel="stylesheet" href="style/styles.css">
+    <!-- FONTS LINK -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap"
+        rel="stylesheet">
+    <title>Syre's League</title>
+</head>
+
+<body>
+    <div class="caixa-video">
+        <video src="video/Vídeo sem título (1).mp4" loop muted autoplay></video>
+        <div class="mascara"></div>
+    </div>
+
+    <header class="header">
+        <section>
+            <a href="index.html">
+                <img class="logo" src="img/logoTamanhoSemFundo.png" alt="LogoLiga">
+            </a>
+            <nav class="nav-menu">
+                <a href="index.html" class="link-menu">Home</a>
+                <a href="media.html" class="link-menu">Media</a>
+                <a href="#" onclick="showModal()" class="link-menu">Players</a>
+                <a href="support.html" class="link-menu">Support</a>
+            </nav>
+
+        </section>
+    </header>
+
+    <section class="caixa-principal">
+        <div>
+            <h3>The best league on the internet!</h3>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Reprehenderit ipsa, laboriosam ea, reiciendis
+                quisquam rerum officia repellendus fugit alias laborum in quam, vel excepturi magnam asperiores dicta
+                nihil impedit tempore.</p>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequatur placeat earum, adipisci, unde soluta
+                error veritatis repellat minus saepe molestiae, laboriosam accusantium tempore doloribus? Ducimus veniam
+                iure labore fugit laboriosam!</p>
+            <a class="botao-link">Start playing now!</a>
+        </div>
+    </section>
+
+    <section class="caixa-sobre">
+        <h2 class="titulo">About Us</h2>
+        <div class="sobre-container">
+            <div class="sobre-img">
+                <img src="img/videoGam.png">
+            </div>
+            <div class="sobre-text">
+                <h3>What makes us the best</h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nulla ad quis minus! Sunt necessitatibus
+                    voluptatibus voluptatum commodi possimus dolor iure aliquid asperiores sed, sequi, nostrum beatae
+                    veritatis optio odit corporis.</p>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nisi officiis deleniti sapiente accusantium
+                    odio reiciendis in. Aperiam inventore tenetur, laboriosam pariatur aliquam, consequatur hic ullam
+                    culpa sint quasi ad eos!</p>
+                <a class="botao-link">Find out more</a>
+            </div>
+
+        </div>
+    </section>
+
+    <div class="modal">
+
+        <div class="container-slider">
+            <button id="prev-button"><img src="img/prev.png" alt="prev-button"></button>
+            <div class="container-images">
+                <img src="img/joaoCacardMENOR.png" alt="1" class="slider on">
+                <img src="img/arturBogdaMENOR.png" alt="2" class="slider">
+                <img src="img/jamesDixonMENOR.png" alt="3" class="slider">
+                <img src="img/oakleyNeganMENOR.png" alt="4" class="slider">
+                <img src="img/petJamesMENOR.png" alt="5" class="slider">
+            </div>
+            <button id="next-button"><img src="img/next.png" alt="next-button"></button>
+        </div>
+
+    </div>
+
+    <div class="mascara-modal" onclick="hideModal()">
+
+    </div>
+
+    <script src="script.js"></script>
+</body>
+
+</html>

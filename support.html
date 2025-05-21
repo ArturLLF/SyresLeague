@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="img/favicon.ico" type="image/x-icon">
+    <script src="script.js" defer></script>
+    <link rel="stylesheet" href="style/styles.css">
+    <!-- FONTS LINK -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap"
+        rel="stylesheet">
+    <title>Support</title>
+</head>
+
+<body>
+    <div class="caixa-video">
+        <video src="video/Vídeo sem título (1).mp4" loop muted autoplay></video>
+        <div class="mascara"></div>
+    </div>
+
+    <header class="header">
+        <section>
+            <a href="index.html">
+                <img class="logo" src="img/logoTamanhoSemFundo.png" alt="LogoLiga">
+            </a>
+
+            <nav class="nav-menu">
+                <a href="index.html" class="link-menu">Home</a>
+                <a href="media.html" class="link-menu">Media</a>
+                <a href="#" onclick="showModal()" class="link-menu">Players</a>
+                <a href="support.html" class="link-menu">Support</a>
+            </nav>
+
+        </section>
+    </header>
+
+    <main>
+        <div class="support">
+            <h1>Support</h1>
+            <p>Email: Loremipsumdo@lorsit.com</p>
+            <p>Phone: (**) ****-****</p>
+            <p>Instagram: @SyresLeague</p>
+            <p>Twitter: @SyresLeague</p>
+            <p>Facebook: @SyresLeague</p>
+        </div>
+    </main>
+
+    <div class="modal">
+
+        <div class="container-slider">
+            <button id="prev-button"><img src="img/prev.png" alt="prev-button"></button>
+            <div class="container-images">
+                <img src="img/joaoCacardMENOR.png" alt="1" class="slider on">
+                <img src="img/arturBogdaMENOR.png" alt="2" class="slider">
+                <img src="img/jamesDixonMENOR.png" alt="3" class="slider">
+                <img src="img/oakleyNeganMENOR.png" alt="4" class="slider">
+                <img src="img/petJamesMENOR.png" alt="5" class="slider">
+            </div>
+            <button id="next-button"><img src="img/next.png" alt="next-button"></button>
+        </div>
+
+    </div>
+
+    <div class="mascara-modal" onclick="hideModal()">
+
+    </div>
+
+    <script src="script.js"></script>
+    </body>
